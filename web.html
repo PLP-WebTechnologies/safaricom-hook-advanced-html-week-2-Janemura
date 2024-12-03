@@ -1,0 +1,48 @@
+<! DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>A multimedia rich webpage</h1>
+        <h2>Audio player</h2>   
+        <p>In a click</p>
+        <audio controls loop>
+            <source src="vibe-195821.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+        </audio>
+        <h2>Video player</h2>
+       <p>In a click</p> 
+       <video controls autoplay loop width ="600"poster="sherry-christian-8Myh76_3M2U-unsplash.jpg" >
+        <source src="Seyi-Vibez-Big Vibe-Video-(TrendyBeatz.com).mp4" type="video/mp4">
+       </video>
+       <form>
+        <fieldset>
+            <legend> Personal information</legend>
+        <h2>Registration form</h2>
+        <label for="full name">Full name</label>
+        <input type="text" id ="full name" name="full name" required maxlength="100" placeholder ="Full names"><br>
+        <label for ="email address"> Email address</label>
+        <input type="email" id="email address" name="email address" required placeholder ="example@gmail.com"><br>
+        <label for = "password"> Password</label>
+        <input type="password" id ="password" name="password" required minlength="8" placeholder="strong password"><br>
+        <label for="age"> Age</label>
+        <input type="number" id="age" name="age" required min="18" placeholder="enter your age"><br><br>
+        <label for ="gender">Gender</label><br>
+        <input type="radio" id="gender" name="gender" value="male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id ="female" name="female" value="female">
+        <label for ="female">Female</label><br>
+        <input type="radio" id="others"name ="others"value="others">
+        <label for="others">Others</label><br>
+        </fieldset><br><br>
+
+        <div class="terms">
+            <input type="checkbox"id="terms" name="terms" required>
+            <label for="terms"> I agree to the terms and conditions</label>
+            </div><br>
+           <button type="submit">Register</button> 
+       </form>
+    </body>
+</html>
